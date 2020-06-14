@@ -1,15 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #E0EAFC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-h1 {
-  text-transform: uppercase;
-  padding-top: 50%;
+.navbar {
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-/* .navbar-nav {
+#header-section {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.head-text h1 {
+  text-transform: uppercase;
+  padding-top: 40%;
+}
+.img-header {
   padding-top: 5%;
-} */
-/* http://128.199.200.143/
-digitalocean
-webmaster@orangsusah.com */
+}
+.head-text h2 {
+  text-transform: uppercase;
+  padding-top: 5%;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+#footer {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 1px
+}
